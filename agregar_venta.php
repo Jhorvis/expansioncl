@@ -1,4 +1,4 @@
-
+﻿
 <!DOCTYPE html>
 
 <?php @session_start();
@@ -9,7 +9,7 @@ require("clases/claseusuario.php");
 $a= new Usuarios();
 
 
-
+que wea mirai cochino culiao
 
 
 $RUT =  $_GET ['rt'];
