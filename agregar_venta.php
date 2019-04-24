@@ -8,10 +8,6 @@ if (!isset($_SESSION['lvl'])) header("location:index.php");
 require("clases/claseusuario.php");
 $a= new Usuarios();
 
-
-que wea mirai cochino culiao
-
-
 $RUT =  $_GET ['rt'];
 $datos=$a->Verificarcliente(@$RUT);
 foreach ($datos as $rr) {}
